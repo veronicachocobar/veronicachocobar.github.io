@@ -87,7 +87,7 @@ function finalizarCompra()
 
         });
         mensaje += `%0ATotal: $${total}%0A%0A y proceder con el pago y coordinar envio`;
-        const telefono = "5491149899407";
+        const telefono = "5491130687108";
         const urlWhatsApp = `https://wa.me/${telefono}?text=${mensaje}`;
         window.open(urlWhatsApp, '_blank');
         carrito = [];
